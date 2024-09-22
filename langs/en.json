@@ -1,0 +1,106 @@
+{
+    "_comment": {
+        "template": "Nextjs Portfolio Template",
+        "description": "This program is a template designed for creating dynamic portfolios using Next.js.",
+        "copyright": "Copyright (C) 2024 tyaP",
+        "license": "GNU Affero General Public License v3.0",
+        "warranty": "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "repository": "https://github.com/mattyapotato/next_portfolio_template",
+        "contact": {
+            "_comment": "For questions or support, please contact the author.",
+            "email": "hi@tyap.me",
+            "website": "https://www.tyap.me/"
+        }
+    },
+    "HomePage": {
+        "title": "Hello world!"
+    },
+    "Footer": {
+        "privacy": "Privacy Statement",
+        "contact": "Contact",
+        "pgp": "PGP Public Key",
+        "status": "Status"
+    },
+    "Header": {
+        "home": "Home",
+        "portfolio": "Portfolio",
+        "blog": "Blog",
+        "pgp": "PGP Public Key",
+        "contact": "Contact",
+        "privacy": "Privacy Statement",
+        "status": "Status"
+    },
+    "Portfolio": {
+        "title": "Portfolio",
+        "subtitle": "tyaP's Works",
+        "tyap-me": "This Website",
+        "v0x": "URL Shortening Tool",
+        "potalth": "AI Writing Assistant Tool Coming soon...",
+        "shimesaba": "Minecraft Community Website (Service Ended), Server Setup (JAVA)",
+        "read-more": "Read more at RESUME",
+        "password-notice": "Please inquire about the password."
+    },
+    "Home": {
+        "about": "Front-end Engineer",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "Skills": {
+        "title": "Skills",
+        "subtitle": "Technologies tyaP is proficient in",
+        "front-end": "Front-end",
+        "back-end": "Back-end",
+        "other": "Other"
+    },
+    "ContactForm": {
+        "title": "Contact Me",
+        "subtitle": "Feel free to reach out with any questions or feedback.",
+        "front-end": "Front-end",
+        "back-end": "Back-end",
+        "name": "Name",
+        "name-exam": "tyaP",
+        "email": "Email Address",
+        "email-exam": "email@example.com",
+        "org": "Organization/Company Name",
+        "any": "Optional",
+        "org-exam": "Example LLC",
+        "message": "Message",
+        "privacy": "Privacy Statement",
+        "privacy-agree": "I agree to the Privacy Statement.",
+        "name-limit-error": "Please enter within 32 characters.",
+        "email-limit-error": "Please enter within 32 characters.",
+        "org-limit-error": "Please enter within 64 characters.",
+        "message-limit-error": "Please enter within 1500 characters.",
+        "privacy-agreed-error": "Please agree to the privacy statement.",
+        "turnstile-error": "Please complete the Turnstile.",
+        "require-attention": "Fields marked with an asterisk are required.",
+        "sendcopy-attention": "A copy of your submission will be sent to your email address.",
+        "submit": "Submit",
+        "submitting": "Submitting...",
+        "submit-success": "Submission Complete",
+        "submit-thanks": "Thank you for your inquiry.",
+        "reply-attention": "Please note that we will review your inquiry, but we may not guarantee a reply.",
+        "reply-about": "If a reply is needed, we will contact you via the following email address:",
+        "code": "Inquiry Code",
+        "code-about": "Please keep this code for future reference.",
+        "sent-about": "Submitted Content",
+        "none": "None",
+        "new-contact": "New Inquiry",
+        "return-home": "Return to Home",
+        "submit-err": "Submission Failed",
+        "submit-err-about": "We apologize, an error occurred during submission. Please try again later.",
+        "retry": "Retry"
+    },
+    "PGPKey": {
+        "title": "PGP Public Key",
+        "subtitle": "Here is tyaP's PGP public key. Please use it for encryption or signature verification."
+    },
+    "Layout": {
+        "notice": "The domain of this website will soon be changed to ”tyap.jp”"
+    },
+    "ThemaToggle": {
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "x-powered-by",
+                    "value": ""
+                },
+                {
+                    "key": "x-vercel-id",
+                    "value": ""
+                }
+            ]
+        }
+    ]
+}

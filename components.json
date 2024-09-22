@@ -1,0 +1,29 @@
+{ 
+  "_comment": {
+    "template": "Nextjs Portfolio Template",
+    "description": "This program is a template designed for creating dynamic portfolios using Next.js.",
+    "copyright": "Copyright (C) 2024 tyaP",
+    "license": "GNU Affero General Public License v3.0",
+    "warranty": "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+    "repository": "https://github.com/mattyapotato/next_portfolio_template",
+    "contact": {
+      "_comment": "For questions or support, please contact the author.",
+      "email": "hi@tyap.me",
+      "website": "https://www.tyap.me/"
+    }
+  },
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "default",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "app/globals.css",
+    "baseColor": "gray",
+    "cssVariables": true
+  },
+  "aliases": {
+    "utils": "@/lib/utils",
+    "components": "@/components"
+  }
+}

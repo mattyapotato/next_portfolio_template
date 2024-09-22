@@ -1,0 +1,106 @@
+{
+    "_comment": {
+        "template": "Nextjs Portfolio Template",
+        "description": "This program is a template designed for creating dynamic portfolios using Next.js.",
+        "copyright": "Copyright (C) 2024 tyaP",
+        "license": "GNU Affero General Public License v3.0",
+        "warranty": "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+        "repository": "https://github.com/mattyapotato/next_portfolio_template",
+        "contact": {
+            "_comment": "For questions or support, please contact the author.",
+            "email": "hi@tyap.me",
+            "website": "https://www.tyap.me/"
+        }
+    },
+    "HomePage": {
+        "title": "Hello world!ja"
+    },
+    "Footer": {
+        "privacy": "プライバシーに関する声明",
+        "contact": "お問い合わせ",
+        "pgp": "PGP公開鍵",
+        "status": "ステータス"
+    },
+    "Header": {
+        "home": "ホーム",
+        "portfolio": "ポートフォリオ",
+        "blog": "ブログ",
+        "pgp": "PGP公開鍵",
+        "contact": "お問い合わせ",
+        "privacy": "プライバシーに関する声明",
+        "status": "ステータス"
+    },
+    "Portfolio": {
+        "title": "ポートフォリオ",
+        "subtitle": "tyaPの制作実績",
+        "tyap-me": "このウェブサイト",
+        "v0x": "短縮リンクツール",
+        "potalth": "AIライティングアシストツール Coming soon...",
+        "shimesaba": "マインクラフトコミュニティ(サービス終了)のウェブサイト,サーバー構築(JAVA)",
+        "read-more": "RESUMEで続きを読む",
+        "password-notice": "合言葉はお問い合わせください。"
+    },
+    "Home": {
+        "about": "フロントエンドエンジニア",
+        "blog": "ブログ",
+        "contact": "お問い合わせ"
+    },
+    "Skills": {
+        "title": "スキル",
+        "subtitle": "tyaPの扱える技術",
+        "front-end": "フロントエンド",
+        "back-end": "バックエンド",
+        "other": "その他"
+    },
+    "ContactForm": {
+        "title": "お問い合わせ",
+        "subtitle": "ご質問やフィードバックがある場合は、お気軽にご連絡ください。",
+        "front-end": "フロントエンド",
+        "back-end": "バックエンド",
+        "name": "お名前",
+        "name-exam": "ちゃぴー",
+        "email": "メールアドレス",
+        "email-exam": "email@example.com",
+        "org": "組織・企業名",
+        "any": "任意",
+        "org-exam": "ちゃぴー株式会社",
+        "message": "お問い合わせ内容",
+        "privacy": "プライバシーに関する声明",
+        "privacy-agree": "に同意します。",
+        "name-limit-error": "32字以内で入力してください。",
+        "email-limit-error": "32字以内で入力してください。",
+        "org-limit-error": "64字以内で入力してください。",
+        "message-limit-error": "1500字以内で入力してください。",
+        "privacy-agreed-error": "プライバシーに関する声明に同意してください。",
+        "turnstile-error": "Turnstileを完了してください。",
+        "require-attention": "が付いている項目は必須です。",
+        "sendcopy-attention": "メールアドレスに送信内容のコピーが送信されます。",
+        "submit": "送信",
+        "submitting": "送信中...",
+        "submit-success": "送信完了",
+        "submit-thanks": "お問い合わせありがとうございます。",
+        "reply-attention": "いただいた内容については確認させていただきますが、必ずしも返信を保証するものではありませんので、ご了承ください。",
+        "reply-about": "返信がある場合には、以下のメールアドレスからご連絡いたします:",
+        "code": "お問い合わせコード",
+        "code-about": "このコードは後で必要になるかもしれませんので、必ず保存しておいてください。",
+        "sent-about": "送信内容",
+        "none": "なし",
+        "new-contact": "新しいお問い合わせ",
+        "return-home": "ホームに戻る",
+        "submit-err": "送信に失敗しました",
+        "submit-err-about": "申し訳ございませんが、送信中にエラーが発生しました。しばらくしてから再度お試しください。",
+        "retry": "再試行"
+    },
+    "PGPKey": {
+        "title": "PGP公開鍵",
+        "subtitle": "tyaPのPGP公開鍵は次のとおりです。暗号化や署名の検証などにご利用ください。"
+    },
+    "Layout": {
+        "notice": "このWebサイトのドメインは、まもなく”tyap.jp”に変更されます。"
+    },
+    "ThemaToggle": {
+        "light": "ライト",
+        "dark": "ダーク",
+        "system": "システム"
+    }
+}

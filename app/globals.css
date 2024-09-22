@@ -1,0 +1,239 @@
+/* Nextjs Portfolio Template
+   This program is a template designed for creating dynamic portfolios using Next.js.
+   Copyright (C) 2024 tyaP
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU Affero General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Affero General Public License for more details.
+
+   You should have received a copy of the GNU Affero General Public License
+   along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+   For questions or support, please contact me at:
+   Email: hi@tyap.me
+   Website: https://www.tyap.me/
+   Repository: https://github.com/mattyapotato/next_portfolio_template
+*/
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --background: 27 23% 95%;
+  --foreground: 27 5% 10%;
+  --card: 27 23% 90%;
+  --card-foreground: 27 5% 15%;
+  --popover: 27 23% 95%;
+  --popover-foreground: 27 95% 10%;
+  --primary: 27 100% 75%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 27 23% 70%;
+  --secondary-foreground: 0 0% 0%;
+  --muted: -11 23% 85%;
+  --muted-foreground: 27 5% 35%;
+  --accent: -11 23% 80%;
+  --accent-foreground: 27 5% 15%;
+  --destructive: 0 50% 30%;
+  --destructive-foreground: 27 5% 90%;
+  --border: 27 23% 50%;
+  --input: 27 23% 18%;
+  --ring: 27 100% 75%;
+  --radius: 1.4rem;
+}
+
+.dark {
+  --background: 27 23% 10%;
+  --foreground: 27 5% 90%;
+  --card: 27 23% 10%;
+  --card-foreground: 27 5% 90%;
+  --popover: 27 23% 5%;
+  --popover-foreground: 27 5% 90%;
+  --primary: 27 100% 75%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 27 23% 18%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: -11 23% 18%;
+  --muted-foreground: 27 5% 60%;
+  --accent: -11 23% 18%;
+  --accent-foreground: 27 5% 90%;
+  --destructive: 0 50% 30%;
+  --destructive-foreground: 27 5% 90%;
+  --border: 27 23% 18%;
+  --input: 27 23% 18%;
+  --ring: 27 100% 75%;
+  --radius: 1.4rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+
+  p {
+    word-wrap: break-word;
+  }
+
+  img {
+    border-radius: 0.5rem;
+    max-width: 100%;
+  }
+  pre{
+    word-break: break-all;
+  }
+
+  .blog {
+    line-height: 2.75;
+    font-size: 1.0rem;
+  }
+
+  h2 {
+    line-height: 2.75;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: text-muted;
+  }
+
+  input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    color: text-muted;
+  }
+
+  input::-ms-input-placeholder,
+  textarea::-ms-input-placeholder {
+    color: text-muted;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: text-muted;
+  }
+
+  .input-placeholder::placeholder {
+    color: text-muted;
+  }
+
+  .bg-background {
+    background-color: #F1F6FE;
+  }
+
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .rounded-lg {
+    border-radius: 8px;
+  }
+
+  .p-6 {
+    padding: 1.5rem;
+  }
+
+  .mt-4 {
+    margin-top: 1rem;
+  }
+
+  img {
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h6 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  a {
+    transition: color 0.3s ease;
+  }
+
+}
+.under {
+      opacity: 0.63;
+  border-bottom: dotted 2px;
+}
+p {
+  line-height: 1.5;
+}
+::selection {
+  background-color: #ffb980;
+}
+.link {
+  text-decoration: none;
+  background-image: linear-gradient(to right, currentColor 30%, transparent 30%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+}
