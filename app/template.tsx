@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -26,7 +26,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 
 const variants = {
-    hidden: { opacity: 0},
+    hidden: { opacity: 0 },
     enter: { opacity: 1, scale: 1 },
     exit: { opacity: 0 }
 }

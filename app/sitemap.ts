@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -58,33 +58,33 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     lastModified
   },
   {
-    url: `${ baseURL }/portfolio`,
+    url: `${baseURL}/portfolio`,
     lastModified
   },
   {
-    url: `${ baseURL }/$blogs`,
+    url: `${baseURL}/$blogs`,
     lastModified
   },
   {
-    url: `${ baseURL }/contact`,
+    url: `${baseURL}/contact`,
     lastModified
   },
   {
-    url: `${ baseURL }/privacy`,
+    url: `${baseURL}/privacy`,
     lastModified
   },
-   {
-      url: `${baseURL}/pgp`,
-      lastModified
-   },
-];
+  {
+    url: `${baseURL}/pgp`,
+    lastModified
+  },
+  ];
 
   const dynamicPaths = contents.map(({ id }) => {
     return {
-      url: `${ baseURL }/${id}`,
+      url: `${baseURL}/${id}`,
       lastModified
     };
   });
 
-  return [ ...staticPaths, ...dynamicPaths ];
+  return [...staticPaths, ...dynamicPaths];
 }

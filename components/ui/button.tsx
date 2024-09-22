@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -59,7 +59,7 @@ const buttonVariants = cva(
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
-    VariantProps<typeof buttonVariants> {
+  VariantProps<typeof buttonVariants> {
   asChild?: boolean
 }
 

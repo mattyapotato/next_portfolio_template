@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
    Email: hi@tyap.me
    Website: https://www.tyap.me/
    Repository: https://github.com/mattyapotato/next_portfolio_template
-*/ 
+*/
 /** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {

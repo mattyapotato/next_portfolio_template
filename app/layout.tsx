@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -29,7 +29,7 @@ import { getLocale, getMessages } from 'next-intl/server';
 import NextTopLoader from 'nextjs-toploader';
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Notification  from "@/components/Notification";
+import Notification from "@/components/Notification";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 const zenMaruGothic = Zen_Maru_Gothic({
@@ -81,28 +81,28 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-          <NextTopLoader
-            color="#ffb980"
-            initialPosition={0.08}
-            crawlSpeed={200}
-            height={3}
-            crawl={true}
-            showSpinner={false}
-            easing="ease"
-            speed={200}
-            shadow="0 0 10px ##ffb980,0 0 5px #ffb980"
-            template='<div class="bar" role="bar"><div class="peg"></div></div> 
+            <NextTopLoader
+              color="#ffb980"
+              initialPosition={0.08}
+              crawlSpeed={200}
+              height={3}
+              crawl={true}
+              showSpinner={false}
+              easing="ease"
+              speed={200}
+              shadow="0 0 10px ##ffb980,0 0 5px #ffb980"
+              template='<div class="bar" role="bar"><div class="peg"></div></div> 
   <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
-            zIndex={1600}
-            showAtBottom={false}
-          />
-          <Header />
+              zIndex={1600}
+              showAtBottom={false}
+            />
+            <Header />
             <Notification />
-          <main className="flex-grow m-0">
-            {children}
-          </main>
-          <Footer />
-         </NextIntlClientProvider>
+            <main className="flex-grow m-0">
+              {children}
+            </main>
+            <Footer />
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>

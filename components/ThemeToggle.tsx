@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -56,7 +56,7 @@ export function ModeToggle() {
     ) : (
       <SunMoon className="h-5 w-5" />
     )
-  
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>

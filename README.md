@@ -1,6 +1,6 @@
 # next_portfolio_template: Portfolio Template using Next.js v14 and App Router
 
-This is a portfolio template built using Next.js v14 and its new App Router. It's designed to provide a solid foundation for creating personalized, dynamic portfolios.
+This is a portfolio template built using Next.js v14 and its new App Router. It's designed to provide a solid foundation for creating personalized, static portfolios.
 
 **Note:** Documentation is under development.
 

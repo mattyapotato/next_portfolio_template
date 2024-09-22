@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -34,7 +34,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { CircleFlag } from 'react-circle-flags'
 import Cookies from 'js-cookie';
-import { Languages, Check } from 'lucide-react'; 
+import { Languages, Check } from 'lucide-react';
 
 export const useLanguage = () => {
     const [lang, setLang] = useState<string>('en'); // デフォルト 英語
@@ -45,7 +45,7 @@ export const useLanguage = () => {
     }, []);
 
     const changeLanguage = (newLang: string) => {
-        if (newLang != Cookies.get('lang')){
+        if (newLang != Cookies.get('lang')) {
             setLang(newLang);
             Cookies.set('lang', newLang, { expires: 365 });
             window.location.reload();
@@ -80,7 +80,7 @@ export const LangToggle = () => {
                     {lang === 'en' && <Check className="ml-auto h-4 w-4" />}
                 </DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLanguage('ja')}>
-                    <CircleFlag countryCode="jp" className="mr-2 h-4 w-4" />                    
+                    <CircleFlag countryCode="jp" className="mr-2 h-4 w-4" />
                     <span>日本語</span>
                     {lang === 'ja' && <Check className="ml-auto h-4 w-4" />}
                 </DropdownMenuItem>

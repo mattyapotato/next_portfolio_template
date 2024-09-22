@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -46,7 +46,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-dvh bg-background">
-        <Hero />
+      <Hero />
       <div ref={scrollToSectionRef}>
         <Skills />
         <Portfolio />

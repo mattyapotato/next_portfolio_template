@@ -1,7 +1,7 @@
 {
   "_comment": {
     "template": "Nextjs Portfolio Template",
-    "description": "This program is a template designed for creating dynamic portfolios using Next.js.",
+    "description": "This program is a template designed for creating static portfolios using Next.js.",
     "copyright": "Copyright (C) 2024 tyaP",
     "license": "GNU Affero General Public License v3.0",
     "warranty": "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",

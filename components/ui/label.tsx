@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -36,7 +36,7 @@ const labelVariants = cva(
 const Label = React.forwardRef<
   React.ElementRef<typeof LabelPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root> &
-    VariantProps<typeof labelVariants>
+  VariantProps<typeof labelVariants>
 >(({ className, ...props }, ref) => (
   <LabelPrimitive.Root
     ref={ref}

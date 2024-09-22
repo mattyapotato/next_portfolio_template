@@ -1,5 +1,5 @@
 /* Nextjs Portfolio Template
-   This program is a template designed for creating dynamic portfolios using Next.js.
+   This program is a template designed for creating static portfolios using Next.js.
    Copyright (C) 2024 tyaP
 
    This program is free software: you can redistribute it and/or modify
@@ -59,21 +59,21 @@ type ActionType = typeof actionTypes
 
 type Action =
   | {
-      type: ActionType["ADD_TOAST"]
-      toast: ToasterToast
-    }
+    type: ActionType["ADD_TOAST"]
+    toast: ToasterToast
+  }
   | {
-      type: ActionType["UPDATE_TOAST"]
-      toast: Partial<ToasterToast>
-    }
+    type: ActionType["UPDATE_TOAST"]
+    toast: Partial<ToasterToast>
+  }
   | {
-      type: ActionType["DISMISS_TOAST"]
-      toastId?: ToasterToast["id"]
-    }
+    type: ActionType["DISMISS_TOAST"]
+    toastId?: ToasterToast["id"]
+  }
   | {
-      type: ActionType["REMOVE_TOAST"]
-      toastId?: ToasterToast["id"]
-    }
+    type: ActionType["REMOVE_TOAST"]
+    toastId?: ToasterToast["id"]
+  }
 
 interface State {
   toasts: ToasterToast[]
@@ -131,9 +131,9 @@ export const reducer = (state: State, action: Action): State => {
         toasts: state.toasts.map((t) =>
           t.id === toastId || toastId === undefined
             ? {
-                ...t,
-                open: false,
-              }
+              ...t,
+              open: false,
+            }
             : t
         ),
       }
